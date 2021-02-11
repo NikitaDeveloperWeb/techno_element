@@ -1,4 +1,4 @@
-/* .products {
+.products {
   width: 80%;
   height: auto;
   display: flex;
@@ -7,7 +7,7 @@
   margin-top: 300px;
   justify-content: center;
   align-items: center;
-} */
+}
 .product {
   margin-top: 20px;
   border: 1px solid rgb(216, 216, 216);
@@ -16,6 +16,7 @@
   height: 0 auto;
   border-radius: 2px;
   position: relative;
+  margin-left: 20px;
 }
 .form {
   display: flex;
@@ -41,6 +42,7 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
 .products__block .product__number {
   color: rgb(209, 209, 209);
 }
