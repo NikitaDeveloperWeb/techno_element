@@ -1,4 +1,4 @@
-.products {
+/* .products {
   width: 80%;
   height: auto;
   display: flex;
@@ -7,18 +7,32 @@
   margin-top: 300px;
   justify-content: center;
   align-items: center;
-}
+} */
 .product {
   margin-top: 20px;
   border: 1px solid rgb(216, 216, 216);
   padding: 5px;
   width: 200px;
   height: 0 auto;
-  margin-left: 20px;
   border-radius: 2px;
   position: relative;
 }
-
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.form input {
+  border: 1px solid rgb(223, 65, 65);
+  color: rgb(223, 65, 65);
+  padding: 3px;
+  background: inherit;
+  font-size: 12px;
+  margin-left: 2px;
+  cursor: pointer;
+  border-radius: 3px;
+}
 /* block preview*/
 .products__block {
   width: 100%;
@@ -82,4 +96,44 @@
   cursor: pointer;
   border-radius: 3px;
   transition: 0.7s;
+}
+/* drad and drop */
+
+.selected {
+  opacity: 0.6;
+}
+/* menu */
+.menu__first {
+  display: none;
+}
+.menu__second {
+  margin-left: 132px;
+  display: none;
+  top: 0;
+}
+.menu__second .open {
+  display: none;
+}
+.open {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 0 auto;
+  border: 1px solid black;
+  position: absolute;
+  z-index: 100;
+  background-color: #fff;
+}
+.menu__switch {
+  width: 50px;
+  height: 100%;
+  background-color: aqua;
+}
+/* switch preview */
+#switch__preview {
+  width: 50px;
+  height: 100%;
+  background-color: aqua;
 }
